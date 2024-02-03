@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="22505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22504"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="TeamsCollectionCell" customModule="SportApp" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="211" height="169"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="211" height="169"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Tennis" translatesAutoresizingMaskIntoConstraints="NO" id="xM3-bk-CrS">
+                        <rect key="frame" x="0.0" y="0.0" width="211" height="169"/>
+                    </imageView>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstItem="xM3-bk-CrS" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="BUW-kG-JPi"/>
+                <constraint firstAttribute="trailing" secondItem="xM3-bk-CrS" secondAttribute="trailing" id="OhV-c5-vbO"/>
+                <constraint firstAttribute="bottom" secondItem="xM3-bk-CrS" secondAttribute="bottom" id="aLM-cj-UHb"/>
+                <constraint firstItem="xM3-bk-CrS" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="f1R-Qy-q5s"/>
+            </constraints>
+            <size key="customSize" width="211" height="169"/>
+            <connections>
+                <outlet property="teamsLogo" destination="xM3-bk-CrS" id="fsc-4D-OYd"/>
+            </connections>
+            <point key="canvasLocation" x="252.67175572519082" y="30.633802816901412"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="Tennis" width="500" height="500"/>
+    </resources>
+</document>

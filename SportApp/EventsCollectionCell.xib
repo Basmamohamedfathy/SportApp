@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="22505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22504"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="collection view cell content view" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="4Bj-4V-VVW" customClass="EventsCollectionCell" customModule="SportApp" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="364" height="191"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="gih-Wd-ydr">
+                <rect key="frame" x="0.0" y="0.0" width="364" height="191"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="vs" translatesAutoresizingMaskIntoConstraints="NO" id="gsa-Mb-B0t">
+                        <rect key="frame" x="0.0" y="0.0" width="364" height="191"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZaI-X3-XfS">
+                        <rect key="frame" x="0.0" y="0.0" width="364" height="0.0"/>
+                        <fontDescription key="fontDescription" name="AmericanTypewriter-Bold" family="American Typewriter" pointSize="22"/>
+                        <color key="textColor" systemColor="secondarySystemBackgroundColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Y7H-tE-ww4">
+                        <rect key="frame" x="42" y="134" width="119" height="23"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <fontDescription key="fontDescription" name="AmericanTypewriter-CondensedBold" family="American Typewriter" pointSize="16"/>
+                        <color key="textColor" systemColor="secondarySystemGroupedBackgroundColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FRk-de-Js8">
+                        <rect key="frame" x="0.0" y="183" width="364" height="0.0"/>
+                        <fontDescription key="fontDescription" name="GillSans-Bold" family="Gill Sans" pointSize="22"/>
+                        <color key="textColor" systemColor="secondarySystemBackgroundColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vMM-pL-UJw">
+                        <rect key="frame" x="208" y="137.66666666666666" width="129" height="19.333333333333343"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <fontDescription key="fontDescription" name="AmericanTypewriter-CondensedBold" family="American Typewriter" pointSize="16"/>
+                        <color key="textColor" systemColor="secondarySystemBackgroundColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Xas-h5-pLg">
+                        <rect key="frame" x="48" y="38" width="92" height="86"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    </imageView>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="kP7-iq-6sy">
+                        <rect key="frame" x="224" y="38" width="90" height="87"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    </imageView>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="FRk-de-Js8" firstAttribute="leading" secondItem="gih-Wd-ydr" secondAttribute="leading" id="3IL-9X-uDS"/>
+                    <constraint firstItem="ZaI-X3-XfS" firstAttribute="leading" secondItem="gih-Wd-ydr" secondAttribute="leading" id="Ogm-TC-27d"/>
+                    <constraint firstItem="ZaI-X3-XfS" firstAttribute="top" secondItem="gih-Wd-ydr" secondAttribute="top" id="Q6K-CG-Thy"/>
+                    <constraint firstAttribute="trailing" secondItem="ZaI-X3-XfS" secondAttribute="trailing" id="QwG-P5-jgY"/>
+                    <constraint firstAttribute="bottom" secondItem="FRk-de-Js8" secondAttribute="bottom" constant="8" id="TGt-JV-88B"/>
+                    <constraint firstItem="ZaI-X3-XfS" firstAttribute="leading" secondItem="gih-Wd-ydr" secondAttribute="leading" id="ZHm-2a-bwf"/>
+                    <constraint firstAttribute="trailing" secondItem="FRk-de-Js8" secondAttribute="trailing" id="ZzZ-S4-TIi"/>
+                    <constraint firstItem="ZaI-X3-XfS" firstAttribute="top" secondItem="gih-Wd-ydr" secondAttribute="top" id="kCS-6K-gYk"/>
+                    <constraint firstAttribute="trailing" secondItem="ZaI-X3-XfS" secondAttribute="trailing" id="rX5-Uw-14v"/>
+                </constraints>
+            </collectionViewCellContentView>
+            <size key="customSize" width="364" height="191"/>
+            <connections>
+                <outlet property="awayLogo" destination="kP7-iq-6sy" id="yiQ-hs-Auq"/>
+                <outlet property="awayName" destination="vMM-pL-UJw" id="nXI-dp-MsU"/>
+                <outlet property="backGround" destination="gsa-Mb-B0t" id="uO5-bT-XbO"/>
+                <outlet property="date" destination="ZaI-X3-XfS" id="9kl-nm-9BL"/>
+                <outlet property="homeLogo" destination="Xas-h5-pLg" id="BAI-M5-lb0"/>
+                <outlet property="homeName" destination="Y7H-tE-ww4" id="hEF-CT-MbY"/>
+                <outlet property="result" destination="FRk-de-Js8" id="Umh-WI-i8Z"/>
+            </connections>
+            <point key="canvasLocation" x="-56.488549618320612" y="77.112676056338032"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="vs" width="4088" height="2044"/>
+        <systemColor name="secondarySystemBackgroundColor">
+            <color red="0.94901960784313721" green="0.94901960784313721" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="secondarySystemGroupedBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
